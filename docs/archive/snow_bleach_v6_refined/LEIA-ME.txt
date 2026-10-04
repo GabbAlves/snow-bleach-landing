@@ -1,0 +1,30 @@
+SNOW BLEACH, V6 REFINADO
+========================
+
+COMO USAR
+1. Deixe snow_bleach_v6_refined.html ao lado da sua pasta de imagens
+   (snow_bleach_v6_fixed_assets). Esta página usa os mesmos nomes e caminhos do V6.
+2. Abra o .html no navegador. Sem as imagens, os quadros de imagem aparecem vazios.
+
+PARA LIGAR O BOTÃO DE COMPRA
+No fim do arquivo, procure CHECKOUT_URL e cole o link do pagamento entre as aspas.
+Os botões da oferta e do CTA final passam a abrir o checkout.
+
+O QUE FOI AJUSTADO EM RELAÇÃO AO V6
+- Barra fixa do celular só aparece depois do vídeo, com o preço (antes aparecia na 1ª tela).
+- Player do vídeo vertical (9:16). Para horizontal, troque --vsl-ratio no CSS para 16/9.
+- No celular, título e botão vêm antes da imagem do produto.
+- Depoimentos viraram um espaço vazio. Remova a seção até ter avaliações reais.
+- FAQ completo (inclui entrega e devolução, com resposta a preencher).
+- Contraste, tamanho de toque (44 px) e tamanho de fonte corrigidos.
+- Texto: sem travessão, sem "não é X, é Y", frases staccato juntadas, termos internos
+  ("documento recebido", "material promocional") trocados por "instruções do produto".
+
+PENDENTE ANTES DE PUBLICAR
+- Preencher a resposta de entrega e devolução no FAQ (compra online no Brasil tem
+  direito de arrependimento de 7 dias, art. 49 do CDC).
+- Alinhar o prazo de resultado: a VSL fala em 2ª a 3ª semana e o FAQ diz "após uma semana".
+- Conferir lista INCI, fabricante/importador e regularização (aviso no rodapé).
+- A imagem do produto traz frases mais fortes que o texto da página ("Pele mais clara
+  e uniforme", "Ajuda a reduzir manchas"). Alinhe ao regerar a imagem.
+- Preencher pagamento, frete e garantia na caixa da oferta.

@@ -1,0 +1,47 @@
+:root {
+  --cream: #f7f0e7;
+  --cream-2: #fcf8f3;
+  --beige: #e5d1b8;
+  --gold: #b9966a;
+  --brown: #4a3728;
+  --ink: #201b18;
+  --muted: #71645b;
+  --line: #ded0c0;
+  --white: #ffffff;
+  --focus: #8b5f3f;
+  --eyebrow: #6f4f3a;
+  --success-mark: #7c6a4d;
+  --neutral-mark: #a58c75;
+  --ingredient-label: #8a664c;
+  --step-number: #a57f5a;
+  --placeholder-border: #9a6f4a;
+  --placeholder-text: #6b4a33;
+  --placeholder-dash: #c9b49c;
+  --placeholder-avatar-border: #ddd3ca;
+  --placeholder-avatar: #ece7e1;
+  --placeholder-copy: #6b5d54;
+  --placeholder-stars: #9d8a76;
+  --placeholder-line: #eee6dc;
+  --video-gradient-start: #d6b99b;
+  --video-gradient-end: #f1dfca;
+  --area-grid-line: #ccb79f;
+  --inverse-eyebrow: #d8b996;
+  --inverse-copy: #dfd0c5;
+  --offer-background: #241913;
+  --offer-eyebrow: #d4b28d;
+  --offer-copy: #d9c9bd;
+  --offer-label: #c9b7aa;
+  --offer-microcopy: #bcaea5;
+  --dark-footer: #17110e;
+  --footer-copy: #a5978e;
+  --copy-on-beige: #5e4f44;
+  --max-content: 73.75rem;
+  --max-areas: 87.5rem;
+  --header-height: 3.875rem;
+  --radius-control: 0.4375rem;
+  --safe-x: max(env(safe-area-inset-left, 0px), env(safe-area-inset-right, 0px));
+  --shadow-product: 0 1.75rem 5rem rgb(74 55 40 / 13%);
+  --shadow-floating: 0 0.625rem 2.1875rem rgb(0 0 0 / 27%);
+  --font-system: -apple-system, BlinkMacSystemFont, "SF Pro Display",
+    "SF Pro Text", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}

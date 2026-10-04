@@ -1,0 +1,11 @@
+Coloque aqui os arquivos de imagem da sua pasta original (snow_bleach_v6_fixed_assets):
+
+  snow-bleach-product.png
+  ingredient-1.svg
+  ingredient-2.svg
+  ingredient-3.svg
+  ingredient-4.svg
+  ingredient-5.svg
+
+Se você extrair este zip por cima da sua pasta original, este arquivo de texto
+é o único que entra. Nenhuma imagem sua é substituída.
