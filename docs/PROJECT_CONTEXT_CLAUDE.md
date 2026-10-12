@@ -41,7 +41,7 @@ A landing atual é `snow_bleach_v6_refined.html` (arquivo único, HTML + CSS + ~
 |---|---|---|
 | Produto | Snow Bleach | `CONFIRMADO` |
 | Quantidade | **1 unidade**, 30 ml. Sem kit | `DECISÃO DE PROJETO` |
-| Preço | **R$ 99,90** | `DECISÃO DE PROJETO` |
+| Preço | **R$ 129,90** | `DECISÃO DE PROJETO` |
 | Preço "de/por" | Não usar. Só mostrar preço anterior se for real. O plano do usuário diz: "R$ X (somente se existir preço anterior real)" | `DECISÃO DE PROJETO` |
 | Garantia | 30 dias de uso, reembolso se a pessoa não perceber diferença na uniformidade da pele. Dita no bloco 8 da VSL | `CONFIRMADO` (pelo usuário). **Regras não escritas** (ver 14.3) |
 | Pagamento, frete, prazo | Não definidos | `PENDENTE` |
@@ -225,7 +225,7 @@ Sequência atual: Hero, VSL, emoção, "É para mim?", produto e benefícios, re
 | Após o vídeo | CONHECER SNOW BLEACH | `#produto` |
 | Produto | VER OS ATIVOS | `#ativos` |
 | Oferta | QUERO EXPERIMENTAR SNOW BLEACH | `#faq` (**placeholder**, tem `data-checkout`) |
-| CTA final | QUERO EXPERIMENTAR POR R$ 99,90 | `#oferta` (tem `data-checkout`) |
+| CTA final | QUERO EXPERIMENTAR POR R$ 129,90 | `#oferta` (tem `data-checkout`) |
 | Barra fixa (celular) | COMPRAR | `#oferta` |
 
 `IDEIA/EXPERIMENTO` (do plano do usuário, **não implementada**): variar o rótulo por momento: após benefícios "QUERO CUIDAR DA MINHA PELE", após ingredientes "QUERO EXPERIMENTAR SNOW BLEACH", na oferta "QUERO MEU SNOW BLEACH".
@@ -248,7 +248,7 @@ Cabeçalho: marca "SNOW BLEACH" (link para `#top`) e botão COMPRAR.
 8. **Modo de uso** (`.how`): H2 "Uma rotina simples, em três passos." Passos numerados: Limpe e seque / Aplique / Massageie.
 9. **Expectativas** (`.expect`, fundo marrom): H2 "Resultados pedem constância." Texto "Cosméticos não transformam a pele de uma hora para outra. Resultados e percepção podem variar de pessoa para pessoa." Card "A proposta é incorporar Snow Bleach à rotina e acompanhar gradualmente a aparência e o conforto da sua pele."
 10. **Avaliações** (`.testimonials`): espaço vazio (ver seção 8).
-11. **Oferta** (`#oferta`, fundo marrom escuro `#241913`): eyebrow "Sua rotina pode começar aqui". "Snow Bleach", "1 unidade • 30 ml", rótulo "Preço", **R$ 99,90**, botão, e nota provisória "Informações de pagamento, frete e eventual garantia devem ser inseridas conforme as condições reais da oferta."
+11. **Oferta** (`#oferta`, fundo marrom escuro `#241913`): eyebrow "Sua rotina pode começar aqui". "Snow Bleach", "1 unidade • 30 ml", rótulo "Preço", **R$ 129,90**, botão, e nota provisória "Informações de pagamento, frete e eventual garantia devem ser inseridas conforme as condições reais da oferta."
 12. **FAQ** (`#faq`): ver 14.4.
 13. **Fechamento** (`.final`, fundo bege): H2 "Seu cuidado não precisa parar onde a roupa começa." Texto "Inclua Snow Bleach na sua rotina de cuidado diário." + CTA final.
 14. **Rodapé**: nota de protótipo (ver 17).
@@ -275,7 +275,7 @@ Meta: título "Snow Bleach | Cuidado diário para a pele"; descrição "Snow Ble
 | Não é só aparência (eyebrow) | Além da aparência | Mesmo motivo |
 | Um cuidado simples. Todos os dias. | Um cuidado simples para todos os dias. | Juntar frases cortadas |
 | Três passos. Uma rotina simples. | Uma rotina simples, em três passos. | Mesmo motivo |
-| QUERO EXPERIMENTAR — R$ 99,90 | QUERO EXPERIMENTAR POR R$ 99,90 | Sem travessão |
+| QUERO EXPERIMENTAR — R$ 129,90 | QUERO EXPERIMENTAR POR R$ 129,90 | Sem travessão |
 | "documento recebido", "material promocional", "composição visual da proposta" | "instruções do produto", "informações do produto", "papel diferente na proposta" | Tirar linguagem interna da página, **mantendo a fonte da afirmação** |
 
 ### Padrões de escrita adotados (skills stop-slop e copywriting)
@@ -329,7 +329,7 @@ Abertura de catálogo; o look verde/vermelho; prova social agressiva e claims fi
 - Pontos de quebra: `max-width: 820px` e `max-width: 540px`. Container máximo 1180 px.
 - `DECISÃO DE PROJETO` No celular o **título e o botão vêm antes da imagem**. Na V6 original a imagem vinha primeiro e o título só começava a ~486 px do topo.
 - Alvos de toque: mínimo 44 px (botão do header, botão da barra, link da marca, linha inteira do FAQ). Fonte mínima 12 px (rótulos), texto de apoio 15 a 16 px.
-- **Barra fixa** (`.sticky`, só ≤ 820 px): texto "Snow Bleach · R$ 99,90" + botão COMPRAR dourado com texto escuro. `DECISÃO DE PROJETO` Ela **só aparece depois que a pessoa chega à seção do produto** (`#produto` passa de 50% da altura da tela) e **some** quando a oferta, o CTA final ou o rodapé estão visíveis. Motivo: o preço não pode aparecer na primeira tela. Na V6 original ela aparecia desde o início, o que contradizia o princípio 7.
+- **Barra fixa** (`.sticky`, só ≤ 820 px): texto "Snow Bleach · R$ 129,90" + botão COMPRAR dourado com texto escuro. `DECISÃO DE PROJETO` Ela **só aparece depois que a pessoa chega à seção do produto** (`#produto` passa de 50% da altura da tela) e **some** quando a oferta, o CTA final ou o rodapé estão visíveis. Motivo: o preço não pode aparecer na primeira tela. Na V6 original ela aparecia desde o início, o que contradizia o princípio 7.
 - Corrigido: uma faixa creme de 72 px aparecia embaixo do rodapé no celular (vinha do `padding-bottom` do `body`).
 
 ---
@@ -343,7 +343,7 @@ Abertura de catálogo; o look verde/vermelho; prova social agressiva e claims fi
 - `IDEIA/EXPERIMENTO` O usuário planejava usar o **Lovable** com um prompt consolidado depois de fechar a V6, e agora quer levar o projeto ao **Codex**. Confirmar se o Codex substitui o Lovable.
 
 ### 14.2 Informações da oferta
-Nome, "1 unidade • 30 ml", R$ 99,90. Abaixo do botão: **somente informações verdadeiras** (pagamento, envio, garantia), que ainda não existem.
+Nome, "1 unidade • 30 ml", R$ 129,90. Abaixo do botão: **somente informações verdadeiras** (pagamento, envio, garantia), que ainda não existem.
 
 ### 14.3 Garantia
 `CONFIRMADO` 30 dias. `PENDENTE` escrever as regras: como pedir, prazo de resposta, se o produto precisa voltar, quem paga a devolução. A página não traz nada disso.

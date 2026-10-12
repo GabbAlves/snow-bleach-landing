@@ -27,7 +27,7 @@ Leia `PROJECT_CONTEXT.md` antes de fazer alterações relevantes.
 -   Produto: Snow Bleach.
 -   Quantidade: 30 ml.
 -   Oferta atual: **1 unidade**.
--   Preço atual: **R\$ 99,90**.
+-   Preço atual: **R\$ 129,90**.
 -   Nunca transformar a oferta em kit de 3 unidades sem instrução
     explícita.
 -   Nunca inventar preço anterior, desconto, frete grátis, parcelamento

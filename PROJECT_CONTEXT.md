@@ -29,7 +29,7 @@ Não copiar literalmente nenhuma das referências.
 **Categoria:** creme cosmético para face e corpo\
 **Quantidade:** 30 ml\
 **Oferta atual:** 1 unidade\
-**Preço oficial atual:** **R\$ 99,90**
+**Preço oficial atual:** **R\$ 129,90**
 
 Nunca apresentar como kit de 3 unidades. A oferta atual é uma única
 unidade de 30 ml.
@@ -380,7 +380,7 @@ opcional; - nome ou anonimização; - estrelas; - texto; - data opcional.
 
 Somente depois da construção de valor.
 
-Conteúdo: - Snow Bleach; - 1 unidade; - 30 ml; - **R\$ 99,90**; - CTA
+Conteúdo: - Snow Bleach; - 1 unidade; - 30 ml; - **R\$ 129,90**; - CTA
 forte.
 
 CTA-base: \> QUERO EXPERIMENTAR SNOW BLEACH
@@ -403,7 +403,7 @@ Não inventar resposta para frete, devolução ou garantia.
 
 Headline-base: \> Seu cuidado não precisa parar onde a roupa começa.
 
-CTA: \> QUERO EXPERIMENTAR --- R\$ 99,90
+CTA: \> QUERO EXPERIMENTAR --- R\$ 129,90
 
 ------------------------------------------------------------------------
 
@@ -411,7 +411,7 @@ CTA: \> QUERO EXPERIMENTAR --- R\$ 99,90
 
 No celular, usar barra compacta:
 
-> Snow Bleach · R\$ 99,90 \| COMPRAR
+> Snow Bleach · R\$ 129,90 \| COMPRAR
 
 Não exibir imediatamente ao abrir a página.
 

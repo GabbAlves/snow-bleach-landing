@@ -2,7 +2,13 @@
   "use strict";
 
   const siteConfig = Object.freeze({
+    // PENDENTE: substitua pela URL real do checkout do Snow Bleach.
     checkoutUrl: "",
+    price: "R$ 129,90",
+  });
+
+  document.querySelectorAll("[data-price]").forEach((element) => {
+    element.textContent = siteConfig.price;
   });
 
   if (siteConfig.checkoutUrl) {
@@ -51,4 +57,3 @@
   window.addEventListener("resize", scheduleUpdate);
   updateStickyCta();
 })();
-

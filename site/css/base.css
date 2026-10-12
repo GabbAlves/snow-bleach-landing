@@ -67,8 +67,10 @@ footer :focus-visible {
   }
 
   .cta,
+  .vsl-purchase-cta,
   .sticky,
   .sticky.show {
+    animation: none;
     transition: none;
   }
 
@@ -85,4 +87,3 @@ footer :focus-visible {
     );
   }
 }
-

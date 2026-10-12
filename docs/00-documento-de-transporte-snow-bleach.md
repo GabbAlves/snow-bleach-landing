@@ -8,7 +8,7 @@ Gerado em outubro/2026, ao final de uma conversa longa. O assistente não guarda
 
 Dropshipping de um creme cosmético clareador de axilas, joelhos, cotovelos e região externa da virilha, comprado no AliExpress e vendido numa página própria, com uma VSL (vídeo de vendas vertical de ~10 min) como centro da venda. O usuário é iniciante, está em São Paulo, trabalha em PT-BR e já executou boa parte: validou o nicho, escolheu fornecedor, comprou 1 unidade para testar, gerou o vídeo da apresentadora no DreamFace, está editando no CapCut e já tem uma página (V6 refinada).
 
-**Preço de venda:** R$ 99,90, 1 unidade de 30 ml, sem kit.
+**Preço de venda:** R$ 129,90, 1 unidade de 30 ml, sem kit.
 **Nome do produto na página:** Snow Bleach.
 
 ---
@@ -27,7 +27,7 @@ Dropshipping de um creme cosmético clareador de axilas, joelhos, cotovelos e re
 
 | Tema | Decisão |
 |---|---|
-| Oferta | 1 unidade de 30 ml por R$ 99,90 (sem kit) |
+| Oferta | 1 unidade de 30 ml por R$ 129,90 (sem kit) |
 | Fornecedor atual | NexusLife Supply Store, anúncio "30ml glowhite neve lixívia creme", unidade avulsa, limite de 1 por pedido (pode repetir pedidos) |
 | Já comprado | 1 unidade, para testar a qualidade na mão |
 | Formato do vídeo | Vertical 9:16, ~10 min, 9 blocos |
@@ -130,7 +130,7 @@ Abaixo de ~R$ 89,90 a conta fica frágil. O CPA real só se conhece rodando anú
 
 **Evolução:** guia Lovable (primeira ideia) → V3 do usuário → V4 (redesenho) → V6 do usuário (estratégia de funil) → **V6 refinada** (versão atual, com zip).
 
-**Arquitetura:** Hero → VSL → CTA → conexão emocional → "É para mim?" → produto → benefícios → regiões → ingredientes → modo de uso → expectativas realistas → espaço de avaliações reais → oferta R$ 99,90 → FAQ de objeções → CTA final. CTAs depois de argumentos fortes. Preço só tarde. Fundos alternando creme, branco, marrom.
+**Arquitetura:** Hero → VSL → CTA → conexão emocional → "É para mim?" → produto → benefícios → regiões → ingredientes → modo de uso → expectativas realistas → espaço de avaliações reais → oferta R$ 129,90 → FAQ de objeções → CTA final. CTAs depois de argumentos fortes. Preço só tarde. Fundos alternando creme, branco, marrom.
 
 **Ajustes feitos no V6 (resumo):** barra fixa do celular só aparece depois do vídeo; player vertical 9:16 (variável `--vsl-ratio`); título antes da imagem no celular; depoimentos viraram espaço vazio; FAQ com 8 perguntas; contraste, alvos de toque de 44 px e fontes mínimas de 12 px; textos internos ("documento recebido") trocados por "instruções do produto"; sem travessão.
 
@@ -139,7 +139,7 @@ Abaixo de ~R$ 89,90 a conta fica frágil. O CPA real só se conhece rodando anú
 **Textos-chave atuais:**
 - Hero: "Cuide das áreas que você também quer mostrar." Botão: "ASSISTIR AO VÍDEO".
 - Após o vídeo: "CONHECER SNOW BLEACH". Produto: "VER OS ATIVOS".
-- Oferta: "QUERO EXPERIMENTAR SNOW BLEACH". Final: "Seu cuidado não precisa parar onde a roupa começa." + "QUERO EXPERIMENTAR POR R$ 99,90".
+- Oferta: "QUERO EXPERIMENTAR SNOW BLEACH". Final: "Seu cuidado não precisa parar onde a roupa começa." + "QUERO EXPERIMENTAR POR R$ 129,90".
 
 **Plano do usuário:** depois de fechar a V6 aqui, gastar os créditos do Lovable com **um prompt consolidado**, em vez de reconstruir seção por seção.
 
@@ -210,7 +210,7 @@ Vou continuar um projeto já em andamento. Leia o documento anexo
 (00-documento-de-transporte-snow-bleach.md) antes de responder.
 
 Resumo: dropshipping de um creme clareador de áreas sensíveis (Snow Bleach),
-1 unidade de 30 ml por R$ 99,90, vendido numa página própria com uma VSL
+1 unidade de 30 ml por R$ 129,90, vendido numa página própria com uma VSL
 vertical de ~10 min. Sou iniciante, moro em São Paulo e trabalho em português
 do Brasil.
 

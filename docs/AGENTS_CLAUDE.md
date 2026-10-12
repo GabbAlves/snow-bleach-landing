@@ -9,7 +9,7 @@ Idioma da página e das conversas com o usuário: **português do Brasil** (`lan
 
 ## 1. Missão e escopo
 
-- Refinar a landing de venda de **1 unidade de Snow Bleach (30 ml) por R$ 99,90**, com a VSL vertical como centro da venda.
+- Refinar a landing de venda de **1 unidade de Snow Bleach (30 ml) por R$ 129,90**, com a VSL vertical como centro da venda.
 - A página atual é um **protótipo avançado**: `snow_bleach_v6_refined.html`. Não a trate como pronta para produção.
 - **Não publique**, não chame serviços externos e não configure pagamento, pixel ou domínio sem pedido explícito.
 
@@ -163,7 +163,7 @@ O **FAQ responde objeções reais** (como usar, onde aplicar, virilha, pele sens
 - Frases curtas e completas, **voz ativa**, falando com "você".
 - **Sem travessão (—).** Sem "não é X, é Y". Sem frases em staccato empilhadas ("Três passos. Uma rotina simples."). Sem advérbios de reforço ("realmente", "simplesmente", "genuinamente"). Sem exclamação.
 - **Atribua afirmações:** "as instruções do produto orientam...", "as informações do produto citam...". Evite linguagem interna na página ("documento recebido", "material promocional", "protótipo").
-- Seja **específico** quando o dado for confirmado (30 ml, 1 unidade, R$ 99,90, aplicação externa, manhã e noite). Não crie especificidade falsa.
+- Seja **específico** quando o dado for confirmado (30 ml, 1 unidade, R$ 129,90, aplicação externa, manhã e noite). Não crie especificidade falsa.
 - Benefício antes de característica, sempre sem prometer resultado.
 - Título: uma ideia por seção. Título de seção em frase única.
 
@@ -242,7 +242,7 @@ Estado atual (`DECISÃO DE PROJETO`): **arquivo único**, HTML semântico, CSS i
 Especificação (`DECISÃO DE PROJETO`):
 
 - Existe **só em telas ≤ 820 px**.
-- Conteúdo: **"Snow Bleach · R$ 99,90"** + botão **COMPRAR** (dourado, texto escuro, ≥ 44 px) que rola para `#oferta`.
+- Conteúdo: **"Snow Bleach · R$ 129,90"** + botão **COMPRAR** (dourado, texto escuro, ≥ 44 px) que rola para `#oferta`.
 - **Aparece** quando o topo de `#produto` passa de 50% da altura da janela, isto é, **depois do vídeo e da construção de valor**. Nunca na primeira tela, porque o preço não pode vir antes.
 - **Some** quando `#oferta`, `.final` ou `footer` estão visíveis (evita duplicar o CTA e cobrir o rodapé).
 - Implementação por **posição de scroll** (`getBoundingClientRect` dentro de `requestAnimationFrame`). A primeira versão com `IntersectionObserver` não disparou nos testes automatizados (causa não investigada). Se voltar ao Observer, **valide em navegador real**.

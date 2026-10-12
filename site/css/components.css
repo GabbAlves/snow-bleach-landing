@@ -63,6 +63,64 @@
   max-width: none !important;
 }
 
+.vsl-purchase-cta {
+  width: min(100%, 43.75rem);
+  margin: 1.75rem auto 0;
+  text-align: center;
+  animation: vsl-cta-reveal 500ms ease-out both;
+}
+
+.vsl-cta-kicker {
+  margin: 0 0 0.75rem;
+  color: var(--brown);
+  font-size: clamp(0.75rem, 2.5vw, 0.875rem);
+  font-weight: 850;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.vsl-purchase-button {
+  width: 100%;
+  min-height: 4rem;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1.125rem clamp(1.125rem, 4vw, 2rem);
+  background: var(--brown);
+  box-shadow: 0 1rem 2.5rem rgb(74 55 40 / 18%);
+  font-size: clamp(1rem, 2.6vw, 1.25rem);
+  line-height: 1.25;
+  text-align: left;
+}
+
+.vsl-purchase-button span {
+  flex: none;
+  font-size: 1.5em;
+  line-height: 1;
+}
+
+.vsl-purchase-button:hover {
+  background: var(--ink);
+}
+
+.vsl-cta-subtext {
+  margin: 0.75rem 0 0;
+  color: var(--muted);
+  font-size: 0.9375rem;
+  font-weight: 650;
+}
+
+@keyframes vsl-cta-reveal {
+  from {
+    opacity: 0;
+    transform: translateY(0.75rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
 .fitbox {
   padding: 2.125rem;
   border: 0.0625rem solid var(--line);
