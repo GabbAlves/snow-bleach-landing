@@ -97,8 +97,25 @@ nav {
 }
 
 .video-sec {
-  padding-top: 4.375rem;
+  padding-top: clamp(3rem, 6vw, 4.375rem);
+  scroll-margin-top: calc(var(--header-height) + 1rem);
   background: var(--cream-2);
+}
+
+.vsl-heading {
+  max-width: 56rem;
+}
+
+.vsl-heading .big {
+  margin: 0.625rem auto 0.75rem;
+  font-size: clamp(2.25rem, 4.4vw, 3.75rem);
+  line-height: 1.04;
+}
+
+.vsl-heading .copy {
+  max-width: 42rem;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .after-video {
@@ -129,10 +146,17 @@ nav {
 }
 
 .quote {
-  max-width: 58.75rem;
-  font-size: clamp(2.125rem, 4.5vw, 3.875rem);
+  max-width: 64rem;
+  margin-top: 0.75rem;
+  font-size: clamp(2rem, 4vw, 3.5rem);
   font-weight: 780;
+  line-height: 1.05;
   letter-spacing: -0.05em;
+}
+
+.emotion .copy {
+  max-width: 48rem;
+  margin-bottom: 0;
 }
 
 .fit,
@@ -639,6 +663,11 @@ nav {
   color: var(--offer-copy);
 }
 
+.offer-quantity {
+  margin: 0.5rem 0 0;
+  font-weight: 650;
+}
+
 .faqwrap {
   max-width: 55rem;
   margin: auto;
@@ -855,6 +884,17 @@ footer p {
 }
 
 @media (max-width: 33.75rem) {
+  .vsl-heading .big {
+    font-size: clamp(1.875rem, 8vw, 2.25rem);
+    line-height: 1.08;
+    overflow-wrap: anywhere;
+  }
+
+  .quote {
+    font-size: clamp(1.875rem, 8vw, 2.25rem);
+    line-height: 1.08;
+  }
+
   .hero h1 {
     font-size: 2.625rem;
     overflow-wrap: break-word;

@@ -50,38 +50,17 @@
 }
 
 .video {
-  --vsl-ratio: 9 / 16;
   position: relative;
-  display: grid;
   width: min(100%, 25rem);
-  aspect-ratio: var(--vsl-ratio);
-  margin: 2.125rem auto 0;
-  place-items: center;
-  background: linear-gradient(
-    135deg,
-    var(--video-gradient-start),
-    var(--video-gradient-end)
-  );
+  margin: clamp(1.5rem, 3vw, 2rem) auto 0;
+  overflow: hidden;
+  background: #000;
   box-shadow: 0 1.625rem 4.375rem rgb(74 55 40 / 11%);
 }
 
-.play {
-  display: grid;
-  width: 5.125rem;
-  height: 5.125rem;
-  border: 0;
-  border-radius: 50%;
-  place-items: center;
-  background: var(--white);
-  box-shadow: 0 0.75rem 2.1875rem rgb(0 0 0 / 13%);
-  font-size: 1.75rem;
-}
-
-.video small {
-  position: absolute;
-  bottom: 1.25rem;
-  font-weight: 850;
-  letter-spacing: 0.12em;
+.video vturb-smartplayer {
+  width: 100% !important;
+  max-width: none !important;
 }
 
 .fitbox {
@@ -288,9 +267,12 @@
 }
 
 .pricebox {
-  margin-top: 1.625rem;
-  padding-top: 1.5rem;
+  display: flex;
+  margin-top: 1.25rem;
+  padding-top: 1.25rem;
   border-top: 0.0625rem solid rgb(255 255 255 / 17%);
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .price-label {
@@ -301,15 +283,11 @@
 }
 
 .price {
+  margin: 0.125rem 0 1.25rem;
   font-size: 4rem;
   font-weight: 900;
+  line-height: 1;
   letter-spacing: -0.06em;
-}
-
-.micro {
-  margin-top: 0.75rem;
-  color: var(--offer-microcopy);
-  font-size: 0.75rem;
 }
 
 details {
