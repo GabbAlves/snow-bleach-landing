@@ -691,6 +691,14 @@ nav {
   margin: 0 auto 1.5625rem;
 }
 
+.final .cta {
+  gap: 0.375rem;
+}
+
+.final .cta [data-price] {
+  white-space: nowrap;
+}
+
 footer {
   padding: 2.5rem 0;
   padding-bottom: calc(2.5rem + env(safe-area-inset-bottom, 0px));

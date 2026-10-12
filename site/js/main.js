@@ -2,8 +2,8 @@
   "use strict";
 
   const siteConfig = Object.freeze({
-    // PENDENTE: substitua pela URL real do checkout do Snow Bleach.
-    checkoutUrl: "",
+    checkoutUrl:
+      "https://yzwu2m-qv.myshopify.com/cart/67685120508124:1",
     price: "R$ 129,90",
   });
 
