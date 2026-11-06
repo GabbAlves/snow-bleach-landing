@@ -65,6 +65,14 @@ sugerir aplicação em mucosas ou regiões internas.
     em produção.
 -   Se não houver avaliações reais, prefira ocultar a seção na build de
     produção.
+-   Exceção autorizada pelo responsável do projeto: avaliações reais de
+    terceiros (por exemplo, compradores da página do produto no
+    AliExpress) podem ser exibidas integralmente, mesmo quando o autor
+    descreve resultados próprios. Condições: transcrever exatamente como
+    na fonte, sem reescrever; identificar a origem de forma transparente
+    (nunca apresentar como compra na Nexo Shop); não usar o depoimento
+    como base para claims do próprio site. A copy da landing continua
+    seguindo a regra de Claims acima.
 
 ------------------------------------------------------------------------
 
