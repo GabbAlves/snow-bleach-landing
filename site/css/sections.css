@@ -12,7 +12,7 @@ nav {
   display: flex;
   height: var(--header-height);
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .brand {
