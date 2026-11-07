@@ -56,7 +56,6 @@ h3 {
 .emotion :focus-visible,
 .expect :focus-visible,
 .offer :focus-visible,
-.sticky :focus-visible,
 footer :focus-visible {
   outline-color: var(--beige);
 }
@@ -67,9 +66,7 @@ footer :focus-visible {
   }
 
   .cta,
-  .vsl-purchase-cta,
-  .sticky,
-  .sticky.show {
+  .vsl-purchase-cta {
     animation: none;
     transition: none;
   }
