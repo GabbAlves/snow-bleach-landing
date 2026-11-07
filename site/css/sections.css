@@ -1112,8 +1112,8 @@ footer p {
 }
 
 .review-avatar svg {
-  width: 62%;
-  height: 62%;
+  width: 26px;
+  height: 26px;
   fill: none;
   stroke: currentcolor;
   stroke-linecap: round;
