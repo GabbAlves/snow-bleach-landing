@@ -26,12 +26,15 @@
     svg.setAttribute("stroke", "currentColor");
     svg.setAttribute("stroke-linecap", "round");
     svg.setAttribute("stroke-width", "1.6");
+    svg.style.cssText = "width:26px;height:26px;fill:none;flex-shrink:0;";
     const head = document.createElementNS(NS, "circle");
     head.setAttribute("cx", "12");
     head.setAttribute("cy", "8.5");
     head.setAttribute("r", "3.5");
+    head.setAttribute("fill", "none");
     const body = document.createElementNS(NS, "path");
     body.setAttribute("d", "M5 20c.6-3.6 3.4-5.5 7-5.5s6.4 1.9 7 5.5");
+    body.setAttribute("fill", "none");
     svg.append(head, body);
     return svg;
   }
