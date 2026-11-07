@@ -20,6 +20,12 @@
     svg.setAttribute("viewBox", "0 0 24 24");
     svg.setAttribute("aria-hidden", "true");
     svg.setAttribute("focusable", "false");
+    svg.setAttribute("width", "26");
+    svg.setAttribute("height", "26");
+    svg.setAttribute("fill", "none");
+    svg.setAttribute("stroke", "currentColor");
+    svg.setAttribute("stroke-linecap", "round");
+    svg.setAttribute("stroke-width", "1.6");
     const head = document.createElementNS(NS, "circle");
     head.setAttribute("cx", "12");
     head.setAttribute("cy", "8.5");
