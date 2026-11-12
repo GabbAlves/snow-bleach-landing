@@ -124,10 +124,14 @@
 .fitbox {
   padding: 2.125rem;
   border: 0.0625rem solid var(--line);
+  border-radius: var(--radius-control);
+  background: var(--white);
+  border-top: 0.25rem solid #2d7a4d;
 }
 
 .fitbox.soft {
   background: var(--cream-2);
+  border-top: 0.25rem solid #b33939;
 }
 
 .fitbox h3 {
@@ -141,9 +145,13 @@
 }
 
 .check {
-  padding: 0.9375rem 0;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.875rem;
+  padding: 1rem 0;
   border-bottom: 0.0625rem solid var(--line);
   font-size: 1rem;
+  line-height: 1.45;
 }
 
 .check:last-child {
@@ -152,18 +160,32 @@
 
 .yes::before,
 .no::before {
-  margin-right: 0.75rem;
-  font-weight: 900;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.4375rem;
+  height: 1.4375rem;
+  flex: 0 0 1.4375rem;
+  border-radius: 50%;
+  font-size: 0.8125rem;
+  font-weight: 800;
+  line-height: 1;
+  margin-top: 0.0625rem;
 }
 
 .yes::before {
-  color: var(--success-mark);
   content: "✓";
+  background: #e8f5ed;
+  border: 0.0625rem solid #aee0bf;
+  color: #1b7a43;
 }
 
 .no::before {
-  color: var(--neutral-mark);
-  content: "—";
+  content: "✕";
+  background: #fdf0f0;
+  border: 0.0625rem solid #f8c9c7;
+  color: #b53838;
+  font-size: 0.75rem;
 }
 
 .benefits {
@@ -186,34 +208,58 @@
   font-size: 0.9375rem;
 }
 
-.ing {
-  grid-column: span 2;
+/* ---------- Ingredient carousel (1 slide por vez) ---------- */
+
+.ing-slider-box {
+  position: relative;
+  max-width: 31rem;
+  margin: 2.5rem auto 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ing-carousel {
+  width: 100%;
   overflow: hidden;
+  border-radius: var(--radius-control);
   border: 0.0625rem solid var(--line);
   background: var(--white);
+  box-shadow: 0 0.5rem 1.75rem rgb(74 55 40 / 7%);
 }
 
-.ing:nth-child(4) {
-  grid-column: 2 / span 2;
+.ing-track {
+  display: flex;
+  width: 100%;
+  transition: transform 0.45s cubic-bezier(0.2, 0.8, 0.2, 1);
+  will-change: transform;
 }
 
-.ing:nth-child(5) {
-  grid-column: 4 / span 2;
+.ing {
+  flex: 0 0 100%;
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+  background: var(--white);
 }
 
 .ing img {
   width: 100%;
-  height: 13.75rem;
+  aspect-ratio: 16 / 11;
+  max-height: 18.5rem;
   object-fit: cover;
+  display: block;
 }
 
 .ing-body {
-  padding: 1.4375rem;
+  padding: 1.5rem 1.625rem 1.75rem;
+  text-align: left;
 }
 
 .ing h3 {
-  margin: 0.3125rem 0 0.5625rem;
-  font-size: 1.6875rem;
+  margin: 0.35rem 0 0.6rem;
+  font-size: 1.625rem;
+  letter-spacing: -0.02em;
 }
 
 .ing p {
@@ -221,6 +267,73 @@
   color: var(--muted);
   font-size: 0.9375rem;
   line-height: 1.55;
+}
+
+/* Botões de seta discretos */
+.ing-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+  width: 2.625rem;
+  height: 2.625rem;
+  border-radius: 50%;
+  border: 0.0625rem solid var(--line);
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(4px);
+  color: var(--brown);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s, color 0.2s;
+  box-shadow: 0 0.25rem 0.75rem rgb(0 0 0 / 10%);
+}
+
+.ing-nav:hover {
+  background: var(--white);
+  color: var(--ink);
+  transform: translateY(-50%) scale(1.05);
+}
+
+.ing-nav--prev {
+  left: -1.3125rem;
+}
+
+.ing-nav--next {
+  right: -1.3125rem;
+}
+
+@media (max-width: 36rem) {
+  .ing-nav {
+    display: none; /* No mobile navega por swipe e pelos dots */
+  }
+}
+
+/* Indicadores de bolinhas (dots) */
+.ing-dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  margin-top: 1.25rem;
+}
+
+.ing-dot {
+  width: 0.5625rem;
+  height: 0.5625rem;
+  border-radius: 50%;
+  border: none;
+  background: var(--line);
+  padding: 0;
+  cursor: pointer;
+  transition: background 0.25s, transform 0.25s, width 0.25s;
+}
+
+.ing-dot.is-active {
+  background: var(--gold);
+  width: 1.375rem;
+  border-radius: 0.3125rem;
 }
 
 .tag {

@@ -553,12 +553,7 @@ nav {
   margin-inline: auto;
 }
 
-.ing-grid {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  gap: 1.125rem;
-  margin-top: 2.625rem;
-}
+/* ing-carousel controlado em components.css */
 
 .steps {
   display: grid;
@@ -736,20 +731,6 @@ footer p {
     font-size: 3.0625rem;
   }
 
-  .ing-grid {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .ing,
-  .ing:nth-child(4),
-  .ing:nth-child(5) {
-    grid-column: auto;
-  }
-
-  .ing:last-child {
-    grid-column: 1 / -1;
-  }
-
   .steps {
     grid-template-columns: 1fr;
   }
@@ -777,14 +758,6 @@ footer p {
   .hero .copy,
   .copy {
     font-size: 1rem;
-  }
-
-  .ing-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .ing:last-child {
-    grid-column: auto;
   }
 
   .price {
