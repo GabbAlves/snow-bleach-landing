@@ -49,13 +49,13 @@
   box-shadow: var(--shadow-product);
 }
 
+/* Sem fundo e sem sombra: o botão de compra do VTurb é renderizado dentro deste
+   container, abaixo do vídeo, e deve ficar sobre o fundo creme da seção. */
 .video {
   position: relative;
   width: min(100%, 25rem);
   margin: clamp(1.5rem, 3vw, 2rem) auto 0;
   overflow: hidden;
-  background: #000;
-  box-shadow: 0 1.625rem 4.375rem rgb(74 55 40 / 11%);
 }
 
 .video vturb-smartplayer {
